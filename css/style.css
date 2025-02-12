@@ -2572,7 +2572,8 @@ button.multiselect-btn {
     color: #00D6A8;
 }
 .blog-hero-text h1{
-    margin-top: 20px;
+    margin-top: 10px;
+    
 }
 .blog-detiles{
     background: #fff;
@@ -2617,6 +2618,7 @@ button.multiselect-btn {
     position: relative;
 }
 .air {
+    display: none;
     position: absolute;
     left: 16px;
     top: 19px;
@@ -2624,7 +2626,7 @@ button.multiselect-btn {
 .news-email input{
     width: 100%;
     border-radius: 6px;
-    padding: 25px 100px;
+    padding: 25px;
     position: relative;
 }
 .news-email input:focus{
@@ -3024,20 +3026,27 @@ button.multiselect-btn {
         width: 100px;
     }
     .blog-third-title {
-        font-size: 20px;
+        font-size: 18px;
     }
     .blog-hero-text h1{
         text-align: center;
-        font-size: 25px;
+        font-size: 20px;
     }
     .user-blog{
         justify-content: center;
+    }
+    .blog-hero-img img {
+        width: 91%;
+        margin: 0 auto;
     }
     .blog-hero{
         padding: 150px 0 100px;
     }
     .blog-detiles{
         padding: 50px 0;
+    }
+    .blog-first-pra {
+        font-size: 14px;
     }
     .related-blog{
         padding: 50px 0;
