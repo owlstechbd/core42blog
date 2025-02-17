@@ -2565,14 +2565,15 @@ button.multiselect-btn {
 }
 
 .blog-seceond-pra{
-    font-size: 1.1vw;
-    line-height:1.9vw;
+    font-size: 1.4vw;
+    line-height:2.5vw;
 }
 .user-name h3{
     color: #00D6A8;
 }
 .blog-hero-text h1{
     margin-top: 10px;
+    margin-bottom:30px;
     
 }
 .blog-detiles{
@@ -2598,6 +2599,21 @@ button.multiselect-btn {
 .blog-detiles img{
     width: 100%;
     margin: 20px 0;
+}
+.blog-center-image{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.blog-center-image img{
+    width: 35%;
+    padding-right: 90px;
+    padding-left: 90px;
+    margin-bottom: 60px;
+}
+.blog-center-image p{
+    font-size: 1.4vw;
+    line-height: 2.5vw;
 }
 .blog-newslatter{
     padding: 50px 0;
@@ -2701,6 +2717,7 @@ button.multiselect-btn {
     width: auto;
     margin-bottom: -4px;
 }
+
 .blog-btn{
     margin:20px 0;
     position: absolute;
@@ -2716,9 +2733,9 @@ button.multiselect-btn {
     color: #000;
 }
 .sticky-share{
-    display: none;
+ display: none;
    
-/*  bottom: 30%;
+    /* bottom: 30%;
     display: flex;
     align-items: center;
     right: 50px;
