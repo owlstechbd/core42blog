@@ -417,6 +417,7 @@ video {
 
 .footer-icon ul {
     display: flex;
+    justify-content: flex-end;
 }
 
 .footer-icon ul li {
@@ -2504,11 +2505,14 @@ button.multiselect-btn {
 }
 /* blog-hero */
 .blog-hero{
+    display: flex;
+    align-items: center;
     width: 100%;
-    background-position: center center!important;
+    background-position: top  center!important;
     background-repeat: no-repeat!important;
     background-size: cover!important;
     padding: 100px 0;
+    height: 60vh;
     position: relative;
 }
 .blog-logo img {
@@ -2562,7 +2566,7 @@ button.multiselect-btn {
     font-weight: 500;
 }
 .blog-first-pra{
-    font-size: 1.158vw;
+    font-size: 1.1vw;
 }
 .blog-first-heading{
     font-size: 2.6vw;
@@ -2570,8 +2574,8 @@ button.multiselect-btn {
 }
 
 .blog-seceond-pra{
-    font-size: 1.4vw;
-    line-height:2.5vw;
+    font-size: 1.1vw;
+    line-height:1.9vw;
 }
 .user-name h3{
     color: #00D6A8;
@@ -2598,7 +2602,7 @@ button.multiselect-btn {
 }
 .blog-detiles h4{
     padding-left: 20px;
-    margin: 35px 0;
+    margin: 55px 0 20px;
     border-left: 5px #48BEA1 solid;
 }
 .blog-detiles img{
@@ -2787,16 +2791,16 @@ button.multiselect-btn {
     .blog-first-heading{
         font-size: 35px;
     }
-    .blog-seceond-pra{
-        font-size: 20px;
-        
+    .blog-seceond-pra {
+        font-size: 16px;
+        line-height: 24px;
     }
     .newslater-right input[type="submit"]{
         font-size: 16px;
         top: 6px;
     }
     .blog-sec-title{
-        font-size: 25px;
+        font-size: 23px;
     }
     .blog-fourth-title{
         font-size:16px;
@@ -2862,9 +2866,13 @@ button.multiselect-btn {
         margin-top: -8px;
     }
     .blog-hero-text {
-        width: 48%;
+        width: 90%;
         color: #fff;
         margin-bottom: 30px;
+    }
+    .blog-hero{
+        height: auto;
+        padding: 140px 0 100px;
     }
     .sticky-share{
         bottom: 3%;
@@ -3041,6 +3049,10 @@ button.multiselect-btn {
         width: 100%;
     }
     
+    .blog-hero-text {
+        display: flex;
+        flex-direction: column-reverse;
+    }
     .blog-hero-text p{
         text-align: center;
     }
@@ -3090,7 +3102,12 @@ button.multiselect-btn {
         margin-bottom: 35px;
     }
     .blog-hero{
+        background-size: cover!important;
+        background-repeat: no-repeat!important;
         padding: 100px 0 20px;
+    }
+    .footer-left{
+        text-align: center;
     }
     .blog-detiles h4 {
         padding-left: 20px;
